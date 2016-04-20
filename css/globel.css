@@ -1,0 +1,31 @@
+@charset "utf-8";
+/*全局属性 [*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav, output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;counter-reset:section;}
+*{box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;-ms-box-sizing:border-box;}
+html,body{width:100%;height:100%;font-size:62.5%;animation: piclist1 .5s linear;-webkit-animation: piclist1 .5s linear;-o-animation: piclist1 .5s linear;-ms-animation: piclist1 .5s linear;-moz-animation: piclist1 .5s linear;} 
+body{overflow-x:hidden;font-family:"\5fae\8f6f\96c5\9ed1",Arial,Helvetica,sans-serif; word-break:break-all;}
+img{border:0;vertical-align:top;width:100%;}
+a{text-decoration:none;-webkit-tap-highlight-color: rgba(0,0,0,0);}
+ol,ul{list-style:none;margin:0px;padding:0px;}
+.clearfix:after{height: 0px;font-size: 0px;overflow: hidden;visibility: hidden;content: ".";clear: both;display: block;}
+.clear{clear:both;}
+.rect{display:block;}
+.rect-c{display:inline-block;}
+.fl{float:left;}
+.fr{float:right;}
+i,em{font-style:normal;}
+label.bl{font-family:"Microsoft yahei";}
+*:focus { outline: none; }
+::-webkit-input-placeholder{color:rgba(172,172,172,.4);letter-spacing:0;}
+input[type="text"],input[type="tel"],input[type="search"],input[type="password"],input[type="button"]{width:100%;ssmargin-right:4px;text-indent:10px;font-family: "\5fae\8f6f\96c5\9ed1",Arial,Helvetica,sans-serif;-webkit-appearance: none;font-size:2em;}
+/*] 全局属性*/
+@font-face {font-family:'iconfont';
+    src:url('../fonts/iconfont.eot'); /* IE9*/
+    src:url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../fonts/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../fonts/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+[class*="ico-"]{
+    font-family:"iconfont" !important;
+    font-style:normal;}
